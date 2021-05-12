@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taberu Apps </title>
+</head>
+
+<body>
+    <a href="#posts" tabindex="1" class="button">Menuju ke konten</a>
+    <header class="header">
+        <div class="header__inner">
+            <img src="../images/heros/Taberu.png" alt="logo-taberu">
+            <p class="header__title">
+                Real Taste Real Food!
+            </p>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+    </header>
+    <nav id="drawer" class="nav">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a tabindex="3" href="index.html">Home</a>
+            </li>
+            <li class="nav__item">
+                <a tabindex="4" href="#">Favorite</a>
+            </li>
+            <li class="nav__item">
+                <a tabindex="5" href="https://github.com/helmai1">About us</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <div class="hero__inner">
+            <h1 class="hero__title">Find Any Restaurant</h1>
+            <p class="hero__tagline">The Passion for The Perfect Taste!</p>
+        </div>
+    </div>
+    <main>
+        <section class="content">
+            <div class="latest">
+                <h1 class="latest__label">Restaurant Catalogue</h1>
+                <div class="posts" id="posts">
+                    <post-item></post-item>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="https://github.com/helmai1">Contact</a></li>
+        </ul>
+        <p class="copyright">Copyright &copy; 2021 -<a href="#">Taberu Apps</a></p>
+    </footer>
+
+</body>
+
+</html>
