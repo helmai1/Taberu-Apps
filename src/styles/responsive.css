@@ -68,7 +68,7 @@
         font-size: 14px;
     }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 775px) {
     .posts {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -83,7 +83,7 @@
     }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1152px) {
     .headline {
         display: grid;
         grid-template-columns: 1fr 1fr;
