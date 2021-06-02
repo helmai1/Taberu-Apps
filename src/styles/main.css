@@ -173,7 +173,7 @@ main {
 
 .headline__content {
     width: 100%;
-    float: left;
+    flex-direction: row;
     padding: 16px 32px;
 }
 
@@ -244,7 +244,7 @@ main {
  */
 
 .post-item {
-    float: left;
+    flex-direction: row;
     margin: 35px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 300px;
